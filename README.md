@@ -1,4 +1,4 @@
-# **Nachti's Game 'Heist'**
+# **Nachtis Streamlabs-Chatbot-Spiel 'Heist'**
 
 Ein Überfall-Spiel (Heist) für den **[Streamlabs-Chatbot](https://streamlabs.com/chatbot?l=de-DE)**. Das Skript ersetzt das im **Streamlabs-Chatbot** unter '***Minigames***' eingebaute Spiel . Ich wollte mehr Konfigurations-Möglichkeiten, als es der **Streamlabs-Chatbot** selbst zulässt. Das vorliegende Skript kann mit mehreren Texten und Zielen gefüttert werden und zeigt diese dann zufällig an.
 
