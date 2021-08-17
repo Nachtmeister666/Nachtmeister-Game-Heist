@@ -1,0 +1,142 @@
+{
+    "output_file": "settings.json",
+    "openREADMEtxt": {
+        "type": "button",
+        "label": "Öffne README",
+        "tooltip": "Öffnen der README-Datei im aktuellen Skriptverzeichnis.",
+        "function": "OpenREADMEtxt",
+        "wsevent": "",
+        "group": ""
+    },
+    "openDatabaseDir": {
+        "type": "button",
+        "label": "Öffne Datenbank-Verzeichnis",
+        "tooltip": "Öffnen das Verzeichnis, in dem die Datenbank dieses Spieles abgelegt wurde.",
+        "function": "OpenDatabaseDir",
+        "wsevent": "",
+        "group": ""
+    },
+    "ActivateExtention": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Aktivieren der Erweiterung",
+        "tooltip": "Aktivieren der gesamten Erweiterung.",
+        "group": ""
+    },
+    "OnlyLive": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Nur wenn Live",
+        "tooltip": "Ausführung nur erlauben, wenn der Stream läuft.",
+        "group": ""
+    },
+    "Game_Command": {
+        "type": "textbox",
+        "value": "!run",
+        "label": "Kommando",
+        "tooltip": "Das Kommando zum Starten des Spiels.\n\nZur Teilnahme muss ein Betrag als Einsatz mit angegeben werden.",
+        "group": "Kommando"
+    },
+    "Game_Command_Permission": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": [
+            "Everyone",
+            "Regular",
+            "Subscriber",
+            "VIP+",
+            "VIP Exclusive",
+            "Moderator",
+            "Editor",
+            "Caster"
+        ],
+        "label": "Zugriffsbeschränkung zum Starten des Spiels.",
+        "tooltip": "Permission Level - Notwendig um am Spiel teilnehmen zu können.",
+        "group": "Kommando"
+    },
+    "Game_UntilStart_Time": {
+        "type": "slider",
+        "value": 300,
+        "min": 60,
+        "max": 900,
+        "ticks": 1,
+        "label": "Zeit bis zum Start (in Sekunden)",
+        "tooltip": "Zeit in Sekunden, bis das Spiel beendet wird. Die Zeit beginnt, nachdem der erste User das Spiel gestartet hat.",
+        "group": "Einstellungen"
+    },
+    "Game_Min_Participant": {
+        "type": "slider",
+        "value": 1,
+        "min": 1,
+        "max": 5,
+        "ticks": 1,
+        "label": "Minimale Anzahl Mitspieler",
+        "tooltip": "Die minimale Anzahl der Mitspieler, die am Spiel teilnehmen müssen, damit das Spiel nach Ablauf der eingestellten Zeit ausgeführt wird.",
+        "group": "Einstellungen"
+    },
+    "Game_Settings_MinStake": {
+        "type": "numberbox",
+        "value": 1,
+        "label": "minimaler Einsatz",
+        "tooltip": "Der minimale Einsatz für die Teilnahme am Spiel.",
+        "group": "Einstellungen"
+    },
+    "Game_Settings_MaxStake": {
+        "type": "numberbox",
+        "value": 50000,
+        "label": "maximaler Einsatz",
+        "tooltip": "Der maximal mögliche Einsatz für die Teilnahme am Spiel.",
+        "group": "Einstellungen"
+    },
+    "Game_Result_Multiplier": {
+        "type": "slider",
+        "value": 2.0,
+        "min": 1.0,
+        "max": 5.0,
+        "ticks": 0.1,
+        "label": "Gewinn Multiplikator",
+        "tooltip": "Der Multiplikator zum errechnen des Gewinnes. Hierzu wird der Einsatz mit dem Wert multipliziert und ergibt so den Gewinn.",
+        "group": "Einstellungen"
+    },
+    "Game_Cooldown_Time": {
+        "type": "slider",
+        "value": 300,
+        "min": 60,
+        "max": 900,
+        "ticks": 1,
+        "label": "Spiel Cooldown",
+        "tooltip": "Zeit in Sekunden, bis das Spiel erneut gestartet werden kann.",
+        "group": "Einstellungen"
+    },
+    "resetDefaultMessageData": {
+        "type": "button",
+        "label": "Benachrichtigungen zurücksetzen",
+        "tooltip": "Setzt alle Benachrichtigungen auf die Grundeinstellungen zurück.\n\nWARNUNG: ALLE BISHERIGEN DATEN WERDEN HIERBEI GELÖSCHT!",
+        "function": "ResetDefaultMessageData",
+        "wsevent": "",
+        "group": "Skript Reset"
+    },
+    "resetDefaultTargets": {
+        "type": "button",
+        "label": "Namen der Ziele zurücksetzen",
+        "tooltip": "Setzt alle Namen der Ziele des Spieles auf die Grundeinstellungen zurück.\n\nWARNUNG: ALLE BISHERIGEN DATEN WERDEN HIERBEI GELÖSCHT!",
+        "function": "ResetDefaultTargetNames",
+        "wsevent": "",
+        "group": "Skript Reset"
+    },
+    "ActivateLog": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Aktivieren des Logfiles",
+        "tooltip": "Aktiviert das Schreiben in das Logfile der Loggingfunktion.",
+        "group": "Log"
+    },
+    "openCurrentLogFile": {
+        "type": "button",
+        "label": "Öffne Log-Verzeichnis",
+        "tooltip": "Öffnet das Verzeichnis der Logdaten des Skriptes.",
+        "function": "OpenLogDir",
+        "wsevent": "",
+        "group": "Log"
+    }
+}
